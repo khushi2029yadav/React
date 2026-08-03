@@ -165,23 +165,74 @@
 // }
 
 // export default App
-import React, { use, useState } from 'react'
-import Navbar from './assets/lec3/Navbar'
-import Home from './assets/Home'
-import About from './assets/lec3/About'
 
-import { Route, Routes } from 'react-router-dom'
+
+// import React, { use, useState } from 'react'
+// import Navbar from './assets/lec3/Navbar'
+// import Home from './assets/Home'
+// import List from './assets/lec3/List'
+// import ProductD from './assets/lec3/ProductD'
+
+// import { Route, Routes } from 'react-router-dom'
+// import ProductList from './assets/lec3/ProductList'
+// const App = () => {
+//   return (
+//     <div>
+//       <Navbar>
+//         <Routes>
+//           <Route path='/' element={<Home/>}/>
+//           {/* <Route path="/about" element={<About/>}/> */}
+//           <Route path="/list" element={<ProductList/>}/>
+//           <Route path="/p/:id" element={<ProductD/>}/>
+
+
+//         </Routes>
+//       </Navbar>
+
+
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+// import React from 'react'
+// // import { Route, Routes } from 'react-router-dom'
+// // import Home from './assets/Home'
+// // import Navbar from './assets/lec3/Navbar'
+// // import About from './assets/lec3/About'
+// // import ProductList from './assets/lec3/ProductList'
+// import UseReducerDemo from './assets/lec4/UseReducerDemo'
+
+// const App = () => {
+//   return (
+//     <div>
+//     {/* /* /* //   <Navbar/>
+//     //   <Routes>
+//     //     <Route   path='/'  element={<Home/>}/>
+//     //     <Route   path='/about'  element={<About/>}/>
+       
+//     //     <Route   path='/p'  element={<ProductList/>}/>
+    
+
+
+//     //   </Routes> */ /*/}
+//     </div>
+//     )
+// 
+import React from 'react'
+// import UseReducerDemo from './assets/lec4/UseReducerDemo'
+// import ToDoList from './assets/lec4/ToDoList'
+import UseReducerToDoList from './assets/lec4/UseReducerToDoList'
+
+
 const App = () => {
   return (
     <div>
-      <Navbar>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
-        </Routes>
-      </Navbar>
-
-
+      <UseReducerToDoList/>
     </div>
   )
 }
